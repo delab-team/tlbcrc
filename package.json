@@ -1,7 +1,7 @@
 {
     "name": "@delab-team/tlbcrc",
-    "version": "1.0.5",
-    "description": "simple package to perform op codes generation by tl-b",
+    "version": "1.0.6",
+    "description": "Package & CLI to generate op's by tl-b",
     "repository": "https://github.com/delab-team/tlbcrc",
     "author": "DeLab Team",
     "license": "MIT",
