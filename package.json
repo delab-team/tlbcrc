@@ -10,7 +10,7 @@
         "pre-pub": "echo '#!/usr/bin/env node' | cat - dist/cli.js > ./dist/temp && mv ./dist/temp dist/cli.js"
     },
     "bin": {
-        "tlbcrc": "./dist/cli.js"
+        "tlbcrc": "./dist/src/cli.js"
     },
     "devDependencies": {
         "@types/chai": "^4.3.3",
