@@ -1,13 +1,13 @@
 {
     "name": "@delab-team/tlbcrc",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "simple package to perform op codes generation by tl-b",
     "repository": "https://github.com/delab-team/tlbcrc",
     "author": "DeLab Team",
     "license": "MIT",
     "scripts": {
         "build": "tsc -p tsconfig.build.json",
-        "pre-pub": "echo '#!/usr/bin/env node' | cat - dist/cli.js > ./dist/temp && mv ./dist/temp dist/cli.js"
+        "prepublish": "echo '#!/usr/bin/env node' | cat - dist/cli.js > ./dist/temp && mv ./dist/temp dist/cli.js"
     },
     "bin": {
         "tlbcrc": "./dist/src/cli.js"
