@@ -7,7 +7,7 @@
     "license": "MIT",
     "scripts": {
         "build": "tsc -p tsconfig.build.json",
-        "prepublish": "echo '#!/usr/bin/env node' | cat - dist/cli.js > ./dist/temp && mv ./dist/temp dist/cli.js"
+        "prepublish": "echo '#!/usr/bin/env node' | cat - dist/src/cli.js > ./dist/temp && mv ./dist/temp dist/src/cli.js"
     },
     "bin": {
         "tlbcrc": "./dist/src/cli.js"
