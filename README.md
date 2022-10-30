@@ -5,3 +5,17 @@
 [![GitHub license](https://img.shields.io/github/license/delab-team/tlbcrc?style=for-the-badge)](https://github.com/delab-team/tlbcrc/blob/main/LICENSE)
 
 Package & CLI to generate op's by tl-b
+
+![example](./img/example.png)
+
+## Install
+
+- as global cli package
+```
+yarn global add @delab-team/tlbcrc
+```
+
+- as local project package
+```
+yarn add @delab-team/tlbcrc
+```
