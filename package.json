@@ -1,6 +1,6 @@
 {
     "name": "@delab-team/tlbcrc",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "description": "simple package to perform op codes generation by tl-b",
     "repository": "https://github.com/delab-team/tlbcrc",
     "author": "DeLab Team",

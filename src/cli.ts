@@ -58,9 +58,9 @@ function main () {
     generator.parse()
 
     const result = generator.generate({
-        force: options.force ? splitForce(options.force) : undefined,
-        queryWord: options.queryWord,
-        responseWord: options.responseWord
+        force: options.force ? splitForce(options.force) : [],
+        queryWord: options.queryWord || undefined,
+        responseWord: options.responseWord || undefined
     })
 
     console.log(result)
