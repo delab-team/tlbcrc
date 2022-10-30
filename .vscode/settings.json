@@ -1,0 +1,7 @@
+{
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+    "eslint.validate": ["typescript"],
+    "[typescript]": { "editor.rulers": [100] },
+    "[func]": { "editor.rulers": [79] },
+    "[jsonc]": { "editor.rulers": [120] }
+}
