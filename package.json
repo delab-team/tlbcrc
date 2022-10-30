@@ -9,6 +9,9 @@
         "build": "tsc -p tsconfig.build.json",
         "pre-pub": "echo '#!/usr/bin/env node' | cat - dist/cli.js > ./dist/temp && mv ./dist/temp dist/cli.js"
     },
+    "bin": {
+        "tlbcrc": "./dist/cli.js"
+    },
     "devDependencies": {
         "@types/chai": "^4.3.3",
         "@types/mocha": "^10.0.0",
