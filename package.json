@@ -5,6 +5,7 @@
     "repository": "https://github.com/delab-team/tlbcrc",
     "author": "DeLab Team",
     "license": "MIT",
+    "keywords": ["cli", "blockchain", "ton", "tl-b"],
     "scripts": {
         "build": "tsc -p tsconfig.build.json",
         "prepublish": "echo '#!/usr/bin/env node' | cat - dist/src/cli.js > ./dist/temp && mv ./dist/temp dist/src/cli.js"
