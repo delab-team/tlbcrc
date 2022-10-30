@@ -1,6 +1,6 @@
 {
     "name": "@delab-team/tlbcrc",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Package & CLI to generate op's by tl-b",
     "repository": "https://github.com/delab-team/tlbcrc",
     "author": "DeLab Team",
@@ -8,7 +8,7 @@
     "keywords": ["cli", "blockchain", "ton", "tl-b"],
     "scripts": {
         "build": "tsc -p tsconfig.build.json",
-        "prepublish": "echo '#!/usr/bin/env node' | cat - dist/src/cli.js > ./dist/temp && mv ./dist/temp dist/src/cli.js"
+        "prepublish": "yarn build && echo '#!/usr/bin/env node' | cat - dist/src/cli.js > ./dist/temp && mv ./dist/temp dist/src/cli.js"
     },
     "bin": {
         "tlbcrc": "./dist/src/cli.js"
